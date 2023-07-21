@@ -7,6 +7,7 @@
 1. POST to `/shorten`
 2. GET to `/index`
 3. POST to `/admin/index`
+4. GET to `/oops`
 
 ### Shorten a given URL
 
@@ -33,3 +34,9 @@
 
 + This URL should authenticable
 + This URL should return **json**
+
+## Redirect to base form
+
+> GET to `/oops`
+
++ This URL should redirect to `/index`
